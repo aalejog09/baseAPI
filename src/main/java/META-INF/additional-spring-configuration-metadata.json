@@ -1,0 +1,55 @@
+{
+  "groups": [{
+    "name": "server",
+    "type": "org.springframework.boot.autoconfigure.web.ServerProperties",
+    "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+  }],
+  "properties": [
+    {
+      "name": "cors.origin.main",
+      "type": "java.lang.String",
+      "description": "Varibale que indica la informacion de acceso permitido por CorsOrigins",
+      "sourceType": "string"
+    },
+    {
+      "name": "swagger.config.title",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.title'"
+    },
+    {
+      "name": "swagger.config.description",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.description'"
+    },
+    {
+      "name": "swagger.config.contact.name",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.contact.name'"
+    },
+    {
+      "name": "swagger.config.contact.url",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.contact.url'"
+    },
+    {
+      "name": "swagger.config.contact.email",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.contact.email'"
+    },
+    {
+      "name": "swagger.config.license",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.license'"
+    },
+    {
+      "name": "swagger.config.license.url",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.version'"
+    },
+    {
+      "name": "swagger.config.version",
+      "type": "java.lang.String",
+      "description": "A description for 'swagger.config.version'"
+    }
+  ]
+}
